@@ -8,16 +8,16 @@ import HomeScreen from "./screens/HomeScreen.js"
 const App = () => {
   return (
     <>
-      <Header/>
-      <main className= 'py-4'> 
+      <Header />
+      <main className='py-4'>
         <Container>
-        <HomeScreen />
+          <HomeScreen />
         </Container>
       </main>
 
-      <Footer/>
-      </>
-    
+      <Footer />
+    </>
+
   );
 };
 
